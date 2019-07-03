@@ -1,0 +1,12 @@
+@import "../../../node_modules/breakpoint-sass";
+
+.homepage {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px 80px;
+  @include breakpoint(max-width 768px){
+    background-color: #51fffa;
+  }
+}
+
